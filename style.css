@@ -1,0 +1,7 @@
+section{
+    width: 150px;
+    aspect-ratio: 1/1;
+    background-color: black;
+    float: left;
+    margin: 24px;
+}

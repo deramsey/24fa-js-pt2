@@ -1,0 +1,50 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+}
+
+main{
+    background-color: white;
+    width: 60vmin;
+    aspect-ratio: 1/1;
+    margin: 24px auto;
+    padding: 12px;
+    border-radius: 32px;
+    border: 1px solid #aaa;
+}
+
+h1{
+    font-size: 6vmin;
+    text-align: center;
+}
+
+#mixedup{
+    text-transform: uppercase;
+    font-size: 3vmin;
+    text-align: center;
+    letter-spacing: 2vmin;
+}
+
+input[type='text']{
+    width: 75%;
+}
+
+label{
+    width: 25%;
+    display: inline-block;
+}
+
+button{
+    width: 100%;
+}
+
+input[type='text'], label, button{
+    margin-bottom: 12px;
+    font-size: 24px;
+}
